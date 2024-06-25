@@ -7,10 +7,10 @@ from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import StaleElementReferenceException
 
 # BeautifulSoup
+# Use https://myhttpheader.com/ to get the info on "User-Agent" and "Accept-Language"
 headers = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                  " (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-    "Accept-Language": "en-GB,en-US,es-ES;q=0.9,es;q=0.8,de;q=0.7",
+    "User-Agent": "REPLACE THIS",
+    "Accept-Language": "REPLACE THIS",
 }
 
 response = requests.get("https://appbrewery.github.io/Zillow-Clone/", headers)
